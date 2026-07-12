@@ -1,0 +1,42 @@
+@import "tailwindcss";
+/* font poppins */
+@font-face {
+  font-family: "poppins_regular";
+  src: url("../fonts/poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppins_medium";
+  src: url("../fonts/poppins/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppins_semibold";
+  src: url("../fonts/poppins/Poppins-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppins_bold";
+  src: url("../fonts/poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+/* font montserrat */
+
+@font-face {
+  font-family: "montserrat_medium";
+  src: url("../fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "montserrat_bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@theme {
+  --font-poppins_regular: "poppins_regular";
+  --font-poppins_medium: "poppins_medium";
+  --font-poppins_semibold: "poppins_semibold";
+  --font-poppins_bold: "poppins_bold";
+  --font-montserrat_medium: "montserrat_medium";
+  --font-montserrat_bold: "montserrat_bold";
+}
+
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
