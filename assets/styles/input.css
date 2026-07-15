@@ -35,6 +35,8 @@
   --font-poppins_bold: "poppins_bold";
   --font-montserrat_medium: "montserrat_medium";
   --font-montserrat_bold: "montserrat_bold";
+  --breakpoint-tablet: 56.25rem;
+  --breakpoint-mobile: 28rem;
 }
 
 @utility flex-center {
