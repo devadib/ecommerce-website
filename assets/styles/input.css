@@ -37,13 +37,16 @@
   --font-montserrat_bold: "montserrat_bold";
   --breakpoint-tablet: 56.25rem;
   --breakpoint-mobile: 28rem;
+  --color-primary-color: #b88e2f;
+  --color-secondary-color: #fff3e3;
+  --color-font-color: #333333;
 }
 
 @utility flex-center {
   @apply flex items-center justify-center;
 }
 @utility scroll-nav {
-  @apply fixed inset-x-0 mx-2 rounded-2xl top-4;
+  @apply fixed inset-x-0 mx-2 rounded-2xl top-4 z-100;
 }
 @utility transition-primary {
   @apply transition-all duration-250 ease-in-out;
