@@ -42,6 +42,10 @@
   --color-font-color: #333333;
 }
 
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
 @utility flex-center {
   @apply flex items-center justify-center;
 }

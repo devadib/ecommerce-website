@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/styles/output.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>home</title>
   </head>
   <body class="">
@@ -298,6 +299,7 @@
       >
         <!-- discovery -->
         <div
+          data-aos="flip-right"
           class="absolute w-160 h-110 pr-14 bg-secondary-color rounded-xl top-28 right-12 max-tablet:w-110 max-tablet:h-70 max-tablet:top-20 max-tablet:inset-x-0 max-tablet:mx-auto max-mobile:max-w-90 max-mobile:max-h-70"
         >
           <div
@@ -325,7 +327,74 @@
           </div>
         </div>
       </section>
+      <!-- collections -->
+      <section class="py-20">
+        <!-- header of the collections -->
+        <div class="text-center pb-15">
+          <h2 class="font-poppins_bold text-4xl leading-normal">
+            Browse The Range
+          </h2>
+          <p
+            class="font-poppins_regular text-xl text-font-color leading-normal"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="container">
+          <div class="flex-center flex-wrap gap-5">
+            <!-- box of collection -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="flex-center flex-col gap-8"
+            >
+              <div class="rounded-2xl overflow-hidden">
+                <img
+                  class="object-cover"
+                  src="../assets/images/pictures/image 101.png"
+                  alt=""
+                />
+              </div>
+              <p class="font-poppins_semibold text-2xl">Bedroom</p>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="flex-center flex-col gap-8"
+            >
+              <div class="rounded-2xl overflow-hidden">
+                <img
+                  class="object-cover"
+                  src="../assets/images/pictures/image 101.png"
+                  alt=""
+                />
+              </div>
+              <p class="font-poppins_semibold text-2xl">Bedroom</p>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="flex-center flex-col gap-8"
+            >
+              <div class="rounded-2xl overflow-hidden">
+                <img
+                  class="object-cover"
+                  src="../assets/images/pictures/image 101.png"
+                  alt=""
+                />
+              </div>
+              <p class="font-poppins_semibold text-2xl">Bedroom</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="../assets/js/pages/home.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
