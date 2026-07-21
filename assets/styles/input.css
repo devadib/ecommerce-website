@@ -40,6 +40,7 @@
   --color-primary-color: #b88e2f;
   --color-secondary-color: #fff3e3;
   --color-font-color: #333333;
+  --color-box: #f4f5f7;
 }
 
 @utility container {
