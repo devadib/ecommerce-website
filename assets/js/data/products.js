@@ -7,7 +7,7 @@ const products = [
     price: 25_000_000,
     stock: 8,
     isLiked: false,
-    discountPercent: 0,
+    discountPercent: 20,
     isNew: false,
   },
   {
@@ -176,5 +176,10 @@ const products = [
     isNew: false,
   },
 ];
+
+let islogin = false;
+let flag = true;
+
+export { islogin, flag };
 
 export default products;
